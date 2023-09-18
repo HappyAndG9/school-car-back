@@ -9,12 +9,12 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 
-#服务器环境：
+#服务器：
 spring:
   datasource:
-    url: jdbc:mysql://43.136.86.199:3306/school_car?zeroDateTimeBehavior=convertToNull
-    username: root
-    password: WMRzJIs14Kntiur
+    url: 
+    username: 
+    password: 
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   mvc:
